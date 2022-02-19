@@ -1,0 +1,6 @@
+:root{
+   --main-text-color: #FFFFFF;
+   --main-link-color: #24A3FF;
+   --bg-gradient:  linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+   --bg-gradient-reversed:  linear-gradient(-90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+}
