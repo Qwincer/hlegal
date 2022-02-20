@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="css/variebels.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/index.css">
-
-    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <title>hlegal</title>
 </head>
 
 <body>
@@ -141,18 +146,54 @@
 
     <!-- Слайдер для статики start -->
 
-    <div class="slider">
-        <img src="img/van-gog.png" alt="Gari" class="slider-img">
-        <a href="#" class="slider-link">команда ></a>
-        <h2 class="slider-text">Ми звикли брати на себе відповідальність
-         та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
-        </h2>
-        <p class="slider-text__sab">Олександр Олександровський</p>
-        <span class="slider-text__span">Керуючий партнер</span>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="slider">
+                    <img src="img/van-gog.png" alt="Gari" class="slider-img">
+                    <div class="slider-content">
+                        <a href="#" class="slider-link">команда ></a>
+                        <h2 class="slider-text">Ми звикли брати на себе відповідальність
+                        та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                        </h2>
+                        <p class="slider-text__sab">Олександр Олександровський</p>
+                        <span class="slider-text__span">Керуючий партнер</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider">
+                    <img src="img/van-gog.png" alt="Gari" class="slider-img">
+                    <div class="slider-content">
+                        <a href="#" class="slider-link">команда ></a>
+                        <h2 class="slider-text">Ми звикли брати на себе відповідальність
+                        та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                        </h2>
+                        <p class="slider-text__sab">Олександр Олександровський</p>
+                        <span class="slider-text__span">Керуючий партнер</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider">
+                    <img src="img/van-gog.png" alt="Gari" class="slider-img">
+                    <div class="slider-content">
+                        <a href="#" class="slider-link">команда ></a>
+                        <h2 class="slider-text">Ми звикли брати на себе відповідальність
+                        та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                        </h2>
+                        <p class="slider-text__sab">Олександр Олександровський</p>
+                        <span class="slider-text__span">Керуючий партнер</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
     </div>
-
-    <!-- Ellipse -->
-    <img src="img/Paginator.png" alt="Paginator" class="paginator">
 
     <!-- Слайдер для статики end -->
     
@@ -289,3 +330,15 @@
 </body>
 
 </html>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+
+</script>
