@@ -1,0 +1,16 @@
+.checkboxContainer{
+   background-color:grey;
+   padding:3px;
+   width: fit-content;
+   border-radius:5px;
+}
+.checkboxContainer label{
+   padding:10 20px;
+}
+.checkboxContainer input[name="radiobutton"] {
+   display:none;
+}
+
+.checkboxContainer input:checked + label{
+   background-color:#fff;
+}
