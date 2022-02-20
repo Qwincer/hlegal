@@ -1,0 +1,127 @@
+@media screen and (min-width: 768px) {
+   .h {
+      background-image: url(../img/symbol/Symbol-768.png);
+      background-repeat: no-repeat;
+      /* background-position: top 0 left 94%; */
+  }
+   .header {
+      margin-bottom: 274px;
+   }
+
+   .header_top {
+      background: none;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 50px;
+      margin-bottom: 30px;
+   }
+
+   .switch-language {
+      margin-left: 60px;
+   }
+
+   .header-map {
+      display: block;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: right;
+      color: #B3B3BA;
+      text-decoration: none;
+      font-weight: 400;
+      margin-right: 14px;
+   }
+
+   /*Времено  */
+   .switch:last-child {
+      margin-right: 14px;
+   }
+
+   .header-link_fb {
+      display: block;
+   }
+
+   .logo {
+      margin-left: 60px;
+   }
+
+   .nav-mobile {
+      display: none;
+   }
+
+   .nav {
+      display: block;
+   }
+
+   .list {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      margin-left: 60px;
+   }
+
+   .list-item {
+      margin-right: 15px;
+   }
+
+   .list-link {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: right;
+      color: #FFFFFF;
+   }
+
+   .logo375 {
+      display: none;
+   }
+
+   .logo-768 {
+      display: block;
+      margin: 0 0 30px 60px;
+   }
+
+   .logo-768_img{
+      width: 130px;
+      height: 60px;
+   }
+
+   /* main */
+   .mainly-section {
+      margin-bottom: 90px;
+   }
+
+   .h1 {
+      width: 800px;
+      height: 46px;
+
+      margin: 0;
+      margin-bottom: 417px;
+  }
+
+   /* categories */
+   .categories-list {
+      margin: 0 0 60px 60px;
+   }
+
+   .categories {
+   font-size: 38px;
+   line-height: 46px;
+   }
+
+   hr {
+      margin-left: 60px;
+      margin-right: 60px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      margin-bottom: 60px;
+  }
+
+  .ml30 {
+   margin-left: 60px;
+}
+.text-1 {
+   font-size: 30px;
+   line-height: 37px;
+}

@@ -21,7 +21,7 @@ h6 {
     font-style: normal;
 }
 
-@media screen and (min-width:375px) {
+/* @media screen and (min-width:375px) { */
     .conteiner {
         background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
         border-radius: 0px 0px 12px 12px;
@@ -29,8 +29,8 @@ h6 {
     }
 
     .h {
-        background-image: url(../img/Symbol.png);
-        background-repeat: no-repeat;
+        background-image: url(../img/symbol/Symbol-375.png);
+        background-repeat: no-repeat;      
     }
 
     .header {
@@ -79,6 +79,10 @@ h6 {
         padding: 5px 7px;
     }
 
+    .header-map{
+        display: none;
+    }
+
     .phone {
         display: inline-block;
         margin-right: 15px;
@@ -88,15 +92,47 @@ h6 {
         text-decoration: none;
     }
 
+    .header-link_fb{
+        display: none;
+    }
+
     .header_bot {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
+    .logo375{
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .logo-link{
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    
     .logo {
-        width: 168.95px;
-        height: 57px;
+        width: 69.33px;
+        height: 32px;
         margin-left: 15px;
+    }
+
+    .logo-slash{
+        width: 11.62px;
+        height: 26px;
+        margin: 0 4px 0 4px;
+    }
+
+    .logo-768{
+        display: none;
+    }
+
+    .nav{
+        display: none;
     }
 
     .nav-btn {
@@ -130,6 +166,7 @@ h6 {
         line-height: 46px;
         text-align: center;
         color: var(--main-text-color);
+        margin: 0;
         margin-bottom: 159px;
     }
 
@@ -149,9 +186,8 @@ h6 {
     /* categories */
 
     .categories-list {
-        margin: 0 0 30px 0;
+        margin: 0 0 30px 30px;
         padding: 0;
-        margin-left: 30px;
         list-style: none;
         display: flex;
         overflow-x: hidden;
