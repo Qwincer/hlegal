@@ -231,6 +231,10 @@ h6 {
         margin-left: 30px;
     }
 
+    .text{
+        margin-bottom: 10px;
+    }
+
     .text-1 {
         font-size: 20px;
         line-height: 24px;
@@ -247,12 +251,12 @@ h6 {
         color: var(--main-text-color);
         margin: 0;
         margin-bottom: 30px;
+        margin-right: 30px;
         padding: 0;
     }
 
     .text-3 {
         margin: 0;
-        margin-bottom: 10px;
         padding: 0;
         text-decoration: none;
         font-size: 14px;
@@ -269,7 +273,12 @@ h6 {
         -webkit-text-fill-color: transparent;
         width: 315px;
         padding: 0;
-        margin: 0 0 30px 30px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .mb30{
+        margin-bottom: 30px !important;
     }
 
     .list-items {
@@ -299,6 +308,7 @@ h6 {
         font-weight: 400;
         padding: 0;margin: 0;
         margin-bottom: 30px;
+        margin-right: 30px;
     }
 
     .border-1{
@@ -323,6 +333,16 @@ h6 {
     .swiper > .swiper-wrapper {
         margin-bottom:40px;
     }
+
+    .swiper-pagination-bullet{
+        background-color: rgba(36, 163, 255,.5) !important;
+    }
+
+    .swiper-pagination-bullet-active{
+        background-color: #24A3FF !important;
+    }
+
+
     .slider{
         background: #F5F5FA;
         border-radius: 12px;
@@ -502,8 +522,7 @@ h6 {
         text-decoration: none;
         text-transform: uppercase;
         margin-left: 30px;
-        margin-bottom: 5px;
-       
+        padding-bottom: 5px;
     }
 
 

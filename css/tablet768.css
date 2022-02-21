@@ -3,7 +3,8 @@
       background-image: url(../img/symbol/Symbol-768.png);
       background-repeat: no-repeat;
       /* background-position: top 0 left 94%; */
-  }
+   }
+
    .header {
       margin-bottom: 274px;
    }
@@ -83,7 +84,7 @@
       margin: 0 0 30px 60px;
    }
 
-   .logo-768_img{
+   .logo-768_img {
       width: 130px;
       height: 60px;
    }
@@ -99,7 +100,7 @@
 
       margin: 0;
       margin-bottom: 417px;
-  }
+   }
 
    /* categories */
    .categories-list {
@@ -107,8 +108,8 @@
    }
 
    .categories {
-   font-size: 38px;
-   line-height: 46px;
+      font-size: 38px;
+      line-height: 46px;
    }
 
    hr {
@@ -116,12 +117,123 @@
       margin-right: 60px;
       border: 2px solid rgba(255, 255, 255, 0.3);
       margin-bottom: 60px;
+   }
+
+   .ml30 {
+      margin-left: 60px;
+   }
+
+   .text-1 {
+      font-size: 30px;
+      line-height: 37px;
+   }
+
+   .text-2 {
+      margin-bottom: 60px;
+      margin-right: 60px;
   }
 
-  .ml30 {
-   margin-left: 60px;
-}
-.text-1 {
-   font-size: 30px;
-   line-height: 37px;
+  .title {
+      font-size: 38px;
+      line-height: 46px;
+      width: 648px;
+      margin-bottom: 60px;
+  }
+
+  .services{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 60px 60px;
+     margin: 0 60px 0 60px;
+  }
+
+  .border-1{
+      width :728px;
+  }
+
+  .border-2{
+      width: 688px;
+   }
+
+   .promo{
+      display: grid;
+      grid-template-columns: 256px 256px 256px;
+      grid-template-rows: 120px  120px 120px 120px;
+   }
+
+   .promo-card-6-1{
+      display: none;
+  }
+
+  .promo-card-6{
+      display: block;
+      background: #E2E2E4;
+  }
+
+  .img6{
+   margin-top: 36px;   
+   }
+
+   .promo-card-7{
+      display: block;
+      background: #C71C36;
+  }
+
+  .img8{
+   margin-top: 29px;   
+   }
+
+  .promo-card-8{
+   display: block;
+   background: #DCF3F9;
+   }
+
+   .img9{
+      margin-top: 22px;   
+   }
+
+   .promo-card-9{
+      display: block;
+      background: #EAEAEA;
+   }
+
+  .img10{
+   margin-top: 30px;   
+   }
+
+   .promo-card-10{
+      display: block;
+      background: #282240;
+  }
+
+  .img11{
+   margin-top: 41px;   
+   }
+
+   .promo-card-11{
+      display: block;
+      background: #1D4568;
+  }
+
+  .img12{
+   margin-top: 37px;   
+   }
+
+   .promo-card-12{
+      display: block;
+      background: #000000;
+  }
+
+  .img13{
+   margin-top: 13px;   
+   }
+
+   .cards-link{
+      margin-left: 60px;
+      padding-bottom: 10px;
+  }
+
+  
+
+
 }
