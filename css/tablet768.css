@@ -95,7 +95,7 @@
    }
 
    .h1 {
-      width: 800px;
+      width: 650px;
       height: 46px;
 
       margin: 0;
@@ -231,6 +231,40 @@
    .cards-link{
       margin-left: 60px;
       padding-bottom: 10px;
+  }
+
+  
+
+  .cards-content{
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  .card{
+   width: 309px;
+   background-color: #FFFFFF;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
+
+.card-3{
+   width: 648px;
+}
+  
+
+  .card-img-1{
+     display: none;
+  }
+
+  
+
+  .card-img-2{
+     display: block;
+     margin-bottom: 30px;
   }
 
   
