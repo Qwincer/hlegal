@@ -30,12 +30,16 @@
       color: #B3B3BA;
       text-decoration: none;
       font-weight: 400;
-      margin-right: 14px;
+      margin-right: 6px;
    }
 
    /*Времено  */
    .switch:last-child {
-      margin-right: 14px;
+      margin-right: 6px;
+   }
+
+   .phone{
+      margin-right: 6px;
    }
 
    .header-link_fb {

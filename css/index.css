@@ -44,6 +44,14 @@ h6 {
         align-items: center;
     }
 
+    .edd{
+        background: #E6E6F0;
+        border-radius: 50%;
+        width: 6px;
+        height: 6px;
+        margin-right: 6px;
+    }
+
     .switch-language {
         display: inline-block;
         margin: 0;
@@ -610,6 +618,7 @@ h6 {
         color: #323264;
         text-align: center;
         margin-bottom: 10px;
+        font-weight: 400;
     }
 
     .link-map{
