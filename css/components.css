@@ -1,8 +1,16 @@
+.chek-btn{
+   padding-top: 30px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
 .checkboxContainer{
-   background-color:grey;
-   padding:3px;
+   background-color: #E6E6F0;
+   padding:8px 30px 10px 30px;
    width: fit-content;
-   border-radius:5px;
+   border-radius: 12px;
+   height: 42px;
 }
 .checkboxContainer label{
    padding:10 20px;
@@ -12,5 +20,7 @@
 }
 
 .checkboxContainer input:checked + label{
+   padding:8px 30px 10px 30px;
+   border-radius: 10px;
    background-color:#fff;
 }

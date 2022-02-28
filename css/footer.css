@@ -70,6 +70,7 @@ ul {
 .footer-contact .contact__list{
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .footer-contact .contact__link_phone{
