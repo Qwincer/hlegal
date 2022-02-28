@@ -1,2 +1,4 @@
-Макет  https://www.figma.com/file/DQNsry7hJixI0IxxkcBcEP/hlegal-2.1-PUBLIC
-Сверстана страница Homepage
+#Макет  
+[Example]: http://example.com/https://www.figma.com/file/DQNsry7hJixI0IxxkcBcEP/hlegal-2.1-PUBLIC
+---
+*Сверстана страница Homepage
