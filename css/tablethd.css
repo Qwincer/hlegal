@@ -1,0 +1,110 @@
+@media screen and (min-width: 1024px) {
+   .h {
+      background-image: url(../img/symbol/Symbol-1024.png);
+      background-repeat: no-repeat;
+      background-position: top 0% left 50%;
+   }
+
+   .header {
+      margin-bottom: 250px;
+   }
+
+   .logo-1024 {
+      display: inline-block;
+      padding-top: 50px;
+      float: left
+   }
+
+   .logo{
+      width: 130px;
+      height: 60px;
+   }
+
+   .header_top {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 0px;
+      padding: 0;
+      padding-top: 50px;
+      margin-left: 275px;
+      margin-right: 60px;
+   }
+
+   .switch-language {
+      margin-left: 0px;
+  }
+  
+   .header_bot {
+      display: inline-block;
+   }
+
+   
+
+   .list {
+      justify-content: flex-end;
+      margin-right: 60px;
+   }
+
+   .logo-768 {
+      display: none;
+   }
+
+   .h1{
+      margin-bottom: 289px;
+   }
+   
+   .categories {
+      display: flex;
+      margin: 0;
+      margin-bottom: 60px;
+   }
+
+   .categories-list {
+      width: 50%;
+      display: flex;
+      overflow: visible;
+      flex-direction: column;
+      align-items: flex-end;
+   }
+
+   .text{
+      width: 50%;
+   }
+
+   .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   .promo {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+   }
+
+   .cards-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+  }
+
+  .card-img-1 {
+   display: block;
+  }
+
+   .card-img-2 {
+      display: none;
+      margin-bottom: 30px;
+   }
+
+   .column.is-half{
+      width: 100%;
+      padding: 0 15px;
+   }
+   
+   .column.is-full {
+      padding: 0px;
+   }
+}
+
+

@@ -1,0 +1,176 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+
+ul {
+  margin: 0;
+  /* Отступ слева в браузере IE и Opera */
+  padding: 0;
+  /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.footer__wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width:767px) {
+  .footer__wrap{
+    flex-direction: column; 
+  }
+}
+
+.footer-head{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+@media screen and (max-width:767px) {
+  .footer-head{
+    width: 100%;
+    order:1;
+  }
+  .footer-head .fb-nav__list{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    /* margin-bottom: 21px;    */
+  }
+}
+
+.footer-legal{
+  width:50%;
+  display:flex;
+  align-items:baseline;
+  justify-content: flex-end;  
+}
+
+@media screen and (max-width:767px) {
+  .footer-legal{
+    width: 100%;
+    order:3;
+    flex-direction: column;
+    align-items:center;
+  }
+}
+
+.footer-contact{
+  width: 100%;
+}
+
+.footer-contact .contact__list{
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact .contact__link_phone{
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #46466E;
+  text-decoration: none;
+}
+
+.footer-contact .contact__link_mail{
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
+  text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+  .footer-contact{
+    order: 2;
+  }
+
+  .footer-contact .contact__list{
+    flex-direction: column;
+  }
+
+  .contact__item{
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .fb-nav{
+    width: 100%;
+  }
+}
+
+.fb-nav__list{
+  display: flex;
+  align-items: center;
+}
+
+.fb-nav__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+  margin: 0;
+}
+
+@media screen and (max-width:767px) {
+  .fb-nav__text{
+    margin-bottom: 10px;
+  }
+}
+
+.fb-nav__edd{
+  width: 6px;
+  height: 6px;
+  background: #B3B3BA;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
+
+.fb-nav__link{
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  text-decoration: none;
+}
+
+.copyright_text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #B3B3BA;
+}
+
+@media screen and (max-width: 767px) {
+  .copyright{
+    margin-bottom: 30px;
+  }
+}
+
+.link-fb__img{
+  width: 38px;
+  height: 38px;
+}
+
+@media screen and (max-width: 767px) {
+  .is-hidden-mobile {
+    display:none;
+  }
+}
+
+
+
+
+
+
+

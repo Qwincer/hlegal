@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/variebels.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/tablet768.css">
+    <link rel="stylesheet" href="css/tablethd.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
@@ -30,82 +32,86 @@
     <footer></footer>-->
     <!--end correct html5-->
     
-    <div class="conteiner">
+    <div class="container">
         <div class="h">
             <header class="header">
-                <div class="header_top">
-                    <ul class="switch-language">
-                        <li class="switch">
-                            <a href="#" class="language">УК</a>
-                        </li>
-
-                        <li class="switch">
-                            <a href="#" class="language">РУ</a>
-                        </li>
-
-                        <li class="switch">
-                            <a href="#" class="language lang-bg">EN</a>
-                        </li>
-                    </ul>
-
-                    <span class="edd"></span>
-
-                    <a href="https://goo.gl/maps/BGnjKh23bsjLzmiK6" class="header-map">
-                        Kyiv, Mechnikova str., 14/1
-                    </a>
+                <article class="heder-wrap">
+                    <div class="logo-1024">
+                        <a href="index.html"><img src="img/Logo1024.png" alt="logo" class="logo"></a>
+                    </div>
+    
+                    <div class="header_top">
+                        <ul class="switch-language">
+                            <li class="switch">
+                                <a href="#" class="language">УК</a>
+                            </li>
+    
+                            <li class="switch">
+                                <a href="#" class="language">РУ</a>
+                            </li>
+    
+                            <li class="switch">
+                                <a href="#" class="language lang-bg">EN</a>
+                            </li>
+                        </ul>
+    
+                        <span class="edd"></span>
+    
+                        <a href="https://goo.gl/maps/BGnjKh23bsjLzmiK6" class="header-map">
+                            Kyiv, Mechnikova str., 14/1
+                        </a>
+                        
+                        <span class="edd"></span>
+    
+                        <a href="tel:0800211927" class="phone">0800 211 927</a>
+    
+                        <span class="edd"></span>
+    
+                        <a href="#" class="header-link_fb">
+                            <img src="img/fb-fff.svg" alt="facebook" class="fb-f">
+                        </a>
+                    </div>
                     
-                    <span class="edd"></span>
-
-                    <a href="tel:0800211927" class="phone">0800 211 927</a>
-
-                    <span class="edd"></span>
-
-                    <a href="#" class="header-link_fb">
-                        <img src="img/fb-fff.svg" alt="facebook" class="fb-f">
-                    </a>
-                </div>
-                
-                <div class="header_bot">
-                         <!-- logo-mobile -->
-                    <div class="logo375">
-                        <a href="index.html"><img src="img/Logo375.png" alt="logo" class="logo"></a>
-                        <img src="img/Slash.svg" alt="Slash" class="logo-slash">
-                        <a href="#" class="logo-link">services</a>
+                    <div class="header_bot">
+                             <!-- logo-mobile -->
+                        <div class="logo375">
+                            <a href="index.html"><img src="img/Logo375.png" alt="logo" class="logo"></a>
+                        </div>
+                            <!-- mob nav -->
+                        <nav class="nav-mobile">
+                            <button class="nav-btn"><img src="img/Hamburger.svg" alt="Hamburger" class="hamburger"></button>
+                        </nav>
+                            <!-- logo tab -->
+                        <div class="logo-768">
+                            <img src="img/Logo768.png" alt="logo" class="logo-768_img">
+                        </div>
                     </div>
-                        <!-- mob nav -->
-                    <nav class="nav-mobile">
-                        <button class="nav-btn"><img src="img/Hamburger.svg" alt="Hamburger" class="hamburger"></button>
-                    </nav>
-                        <!-- logo tab -->
-                    <div class="logo-768">
-                        <img src="img/Logo768.png" alt="logo" class="logo-768_img">
-                    </div>
-                </div>
-
-                <!-- desktop nav -->
-                 <nav class="nav">
-                    <ul class="list">
-                        <li class="list-item">
-                            <a href="#" class="list-link">about us</a>
-                        </li class="list-item">
-
-                        <li class="list-item">
-                            <a href="#" class="list-link">services</a>
-                        </li>
-
-                        <li class="list-item">
-                            <a href="#" class="list-link">team</a>
-                        </li>
-
-                        <li class="list-item">
-                            <a href="#" class="list-link">publications</a>
-                        </li>
-
-                        <li class="list-item">
-                            <a href="#" class="list-link">contact</a>
-                        </li>
-                    </ul>
-                 </nav>
+    
+                    <!-- desktop nav -->
+                     <nav class="nav">
+                        <ul class="list">
+                            <li class="list-item">
+                                <a href="#" class="list-link">about us</a>
+                            </li class="list-item">
+    
+                            <li class="list-item">
+                                <a href="#" class="list-link">services</a>
+                            </li>
+    
+                            <li class="list-item">
+                                <a href="#" class="list-link">team</a>
+                            </li>
+    
+                            <li class="list-item">
+                                <a href="#" class="list-link">publications</a>
+                            </li>
+    
+                            <li class="list-item">
+                                <a href="#" class="list-link">contact</a>
+                            </li>
+                        </ul>
+                     </nav>
+                </article>
             </header>
 
             <main class='mainly'>
@@ -119,85 +125,90 @@
                 </section>
             </main>    
         </div>
-        <!-- categories -->
+        <div class="inner-container">
+            <!-- categories -->
+            <section class="categories">
+                <ul class="categories-list">
+                    <li class="categories-list__item categories-bg"><a href="#" class="categories-list__link">Consistent</a></li>
+                    <li class="categories-list__item"><a href="#" class="categories-list__link">Customer oriented</a></li>
+                    <li class="categories-list__item"><a href="#" class="categories-list__link">Innovative</a></li>
+                    <li class="categories-list__item"><a href="#" class="categories-list__link">Business oriented</a></li>
+                </ul>
+                <hr>
 
-        <ul class="categories-list">
-            <li class="categories categories-bg">Consistent</li>
-            <li class="categories">Customer oriented</li>
-            <li class="categories">Innovative</li>
-            <li class="categories">Business oriented</li>
-        </ul>
-
-        <hr>
-
-        <article class="ml30 text">
-            <p class="text-1">We turn the idea of legal services</p>
-            <p class="text-2">
-                Consolidating many years of experience and practice,
-                the company's lawyers accompany complex projects and
-                achieve a number of important decisions for the industry.
-                Many of them form the practice of applying the law of the sea in Ukraine.
-            </p>
-
-            <a href="#" class="text-3">Services ></a>
-        </article>
-
-
-        <section class="sentence">
-
-            <h2 class="title ml30">What can we do better than others?</h2>
-
-            <article class="services">
-                <div class="list-items">
-                    <img src="img/Icon-1.png" alt="icon" class="icon">
-                    <a href="#" class="item">IT and e-commerce</a>
-                    <p class="item-text">An endless stream of contracts, tax issues, labor relations, corporate papers - legal work
-                        distracts you from doing business. But there is not much work to do to hire an in-house lawyer.
+                <article class="text">
+                    <p class="text-1">We turn the idea of legal services</p>
+                    <p class="text-2">
+                        Consolidating many years of experience and practice,
+                        the company's lawyers accompany complex projects and
+                        achieve a number of important decisions for the industry.
+                        Many of them form the practice of applying the law of the sea in Ukraine.
                     </p>
-                </div>
+                </article>
+            </section>
 
-                <div class="list-items">
-                    <img src="img/Icon-2.png" alt="icon"  class="icon">
-                    <a href="#"  class="item">
-                        Comprehensive daily
-                        legal support
-                    </a>
-                    <p class="item-text">In addition, over time, the work will become the same type and uninteresting for a full-time
-                        lawyer. And we know very well how difficult it is to find a good candidate with experience in
-                        the field of information technology in Ukraine.</p>
-                </div>
-
-                <div class="list-items"  class="icon">
-                    <img src="img/Icon-3.png" alt="icon"  class="icon">
-                    <a href="#"  class="item">Structuring corporate relationships</a>
-                    <p class="item-text">Instead of just providing legal services, we will hire a lawyer or a whole team that will fit
-                        into the daily life of your company.</p>
-                </div>
-
-                <div class="list-items">
-                    <img src="img/Icon-4.png" alt="icon"  class="icon">
-                    <a href="#"  class="item">Building contractual relations</a>
-                    <p class="item-text">Once a week, or week after month, you have your own lawyer by your side. Anyone in the company
-                        can catch it at the coffee maker and just talk about current affairs instead of waiting for
-                        update status.</p>
-                </div>
-
-                <div class="list-items">
-                    <img src="img/Icon-5.png" alt="icon"  class="icon">
-                    <a href="#"  class="item">Protection of business, intellectual property</a>
-                    <p class="item-text">And all the other time he will work on new diverse projects, so he will definitely not stop in
-                        professional development. One way or another, all Axon Partners will work for you instead of a
-                        corporate lawyer.</p>
-                </div>
-
-                <div class="list-items">
-                    <img src="img/Icon-6.png" alt="icon"  class="icon">
-                    <a href="#"  class="item">Judicial representation</a>
-                    <p class="item-text">Is it a small, medium-sized company or a market leader? Local business or multinational company?
-                        Do you have your own legal department or not?</p>
-                </div>
+            <article class="categories-btn">
+                <a href="#" class="text-3" style="width:100%;">Services ></a>
             </article>
-        </section>
+
+        </div>
+        <div class="inner-container">
+            <section class="sentence">
+
+                <h2 class="title ">What can we do better than others?</h2>
+    
+                <article class="services">
+                    <div class="list-items">
+                        <img src="img/Icon-1.png" alt="icon" class="icon">
+                        <a href="#" class="item">IT and e-commerce</a>
+                        <p class="item-text">An endless stream of contracts, tax issues, labor relations, corporate papers - legal work
+                            distracts you from doing business. But there is not much work to do to hire an in-house lawyer.
+                        </p>
+                    </div>
+    
+                    <div class="list-items">
+                        <img src="img/Icon-2.png" alt="icon"  class="icon">
+                        <a href="#"  class="item">
+                            Comprehensive daily
+                            legal support
+                        </a>
+                        <p class="item-text">In addition, over time, the work will become the same type and uninteresting for a full-time
+                            lawyer. And we know very well how difficult it is to find a good candidate with experience in
+                            the field of information technology in Ukraine.</p>
+                    </div>
+    
+                    <div class="list-items"  class="icon">
+                        <img src="img/Icon-3.png" alt="icon"  class="icon">
+                        <a href="#"  class="item">Structuring corporate relationships</a>
+                        <p class="item-text">Instead of just providing legal services, we will hire a lawyer or a whole team that will fit
+                            into the daily life of your company.</p>
+                    </div>
+    
+                    <div class="list-items">
+                        <img src="img/Icon-4.png" alt="icon"  class="icon">
+                        <a href="#"  class="item">Building contractual relations</a>
+                        <p class="item-text">Once a week, or week after month, you have your own lawyer by your side. Anyone in the company
+                            can catch it at the coffee maker and just talk about current affairs instead of waiting for
+                            update status.</p>
+                    </div>
+    
+                    <div class="list-items">
+                        <img src="img/Icon-5.png" alt="icon"  class="icon">
+                        <a href="#"  class="item">Protection of business, intellectual property</a>
+                        <p class="item-text">And all the other time he will work on new diverse projects, so he will definitely not stop in
+                            professional development. One way or another, all Axon Partners will work for you instead of a
+                            corporate lawyer.</p>
+                    </div>
+    
+                    <div class="list-items">
+                        <img src="img/Icon-6.png" alt="icon"  class="icon">
+                        <a href="#"  class="item">Judicial representation</a>
+                        <p class="item-text">Is it a small, medium-sized company or a market leader? Local business or multinational company?
+                            Do you have your own legal department or not?</p>
+                    </div>
+                </article>
+            </section>
+        </div>
         </main>
     </div>
 
@@ -205,15 +216,19 @@
     <div class="border-1"></div>
     <div class="border-2"></div>    
 
-    <div class="inner-container">
+    <div class="inner-container s">
         <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <div class="slider">
-                        <img src="img/van-gog.png" alt="Gari" class="slider-img is-hidden-tablet">
-                        <img src="img/van-gog678.png" alt="Gari" class="slider-img is-hidden-mobile">
+                        <img src="img/van-gog.png" alt="Gari" class="slider-img is-mobile">
+                        <img src="img/van-gog678.png" alt="Gari" class="slider-img is-tablet">
+                        <img src="img/van-gog1024.png" alt="Gari" class="slider-img is-desktop">
+                        <img src="img/van-gog1440.png" alt="Gari" class="slider-img is-ultrawide">
+                        <img src="img/van-gog1920.png" alt="Gari" class="slider-img is-fullhd">
+
                         <div class="slider-content">
                             <a href="#" class="slider-link">команда ></a>
                             <h2 class="slider-text">Ми звикли брати на себе відповідальність
@@ -226,8 +241,12 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="slider">
-                        <img src="img/van-gog.png" alt="Gari" class="slider-img is-hidden-tablet">
-                        <img src="img/van-gog678.png" alt="Gari" class="slider-img is-hidden-mobile">                    <div class="slider-content">
+                        <img src="img/van-gog.png" alt="Gari" class="slider-img is-mobile">
+                        <img src="img/van-gog678.png" alt="Gari" class="slider-img is-tablet">
+                        <img src="img/van-gog1024.png" alt="Gari" class="slider-img is-desktop">
+                        <img src="img/van-gog1440.png" alt="Gari" class="slider-img is-ultrawide">
+                        <img src="img/van-gog1920.png" alt="Gari" class="slider-img is-fullhd">                  
+                        <div class="slider-content">
                             <a href="#" class="slider-link">команда ></a>
                             <h2 class="slider-text">Ми звикли брати на себе відповідальність
                             та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
@@ -239,8 +258,12 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="slider">
-                        <img src="img/van-gog.png" alt="Gari" class="slider-img is-hidden-tablet">
-                        <img src="img/van-gog678.png" alt="Gari" class="slider-img is-hidden-mobile">                    <div class="slider-content">
+                        <img src="img/van-gog.png" alt="Gari" class="slider-img is-mobile">
+                        <img src="img/van-gog678.png" alt="Gari" class="slider-img is-tablet">
+                        <img src="img/van-gog1024.png" alt="Gari" class="slider-img is-desktop">
+                        <img src="img/van-gog1440.png" alt="Gari" class="slider-img is-ultrawide">
+                        <img src="img/van-gog1920.png" alt="Gari" class="slider-img is-fullhd">                 
+                        <div class="slider-content">
                             <a href="#" class="slider-link">команда ></a>
                             <h2 class="slider-text">Ми звикли брати на себе відповідальність
                             та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
@@ -316,80 +339,127 @@
         <section class="cards">
             <a href="#" class="cards-link">Publications ></a>
     
-            <h2 class="title ml30 mb30">We have something to tell</h2>
+            <div class="inner-container">
+                <h2 class="title  mb30">We have something to tell</h2>
 
-            <article class="cards-content">
+                <article class="cards-content">
+                    <div class="column is-half">
+                        <div class="card">
+                            <img src="img/Cover.png" alt="Cover" class="card-img">
+            
+                            <a href="#" class="card_link">Equity associate</a>
+                
+                            <span class="card_data">April 22</span>
+                
+                            <hr class="card-hr">
+                
+                            <p class="card_text">
+                                I'm a jun on projects. I am a co-owner of a law firm.
+                                 How it happened. Before entering my parents told me that if I…
+                            </p>
+                        </div>
+                    </div>
+                   <div class="column is-half">
+                    <div class="card">
+                        <img src="img/Cover-2.png" alt="Cover"  class="card-img">
+            
+                        <a href="#" class="card_link card_link_mr30">Penalty for the Good Corporation: what will happen 
+                            to Google and others for violating the GDPR
+                        </a>
+            
+                        <span class="card_data">September 29</span>
+            
+                        <hr class="hr">
+                        
+                        <p  class="card_text">
+                            And why the recovery of 50 million euros could be a fateful precedent According to Mind.
+                            ua January 21 National Commission for Data Protection.
+                        </p>
+                    </div>
+                   </div>
 
-                <div class="card">
-                    <img src="img/Cover.png" alt="Cover" class="card-img">
-    
-                    <a href="#" class="card_link">Equity associate</a>
+                   <div class="column is-full">
+                    <div class="card card-3">
+                        <img src="img/Cover-3.png" alt="Cover"  class="card-img-1  ">
         
-                    <span class="card_data">April 22</span>
-        
-                    <hr class="hr">
-        
-                    <p class="card_text">
-                        I'm a jun on projects. I am a co-owner of a law firm.
-                         How it happened. Before entering my parents told me that if I…
-                    </p>
-                </div>
-        
-                <div class="card">
-                    <img src="img/Cover-2.png" alt="Cover"  class="card-img">
-        
-                    <a href="#" class="card_link">Penalty for the Good Corporation: what will happen 
-                        to Google and others for violating the GDPR
-                    </a>
-        
-                    <span class="card_data">September 29</span>
-        
-                    <hr class="hr">
-                    
-                    <p  class="card_text">
-                        And why the recovery of 50 million euros could be a fateful precedent According to Mind.
-                        ua January 21 National Commission for Data Protection.
-                    </p>
-                </div>
-        
-                <div class="card card-3">
-                    <img src="img/Cover-3.png" alt="Cover"  class="card-img-1  ">
-    
-                    <img src="img/Cover-3-1.png" alt="Cover" class="card-img-2">
-        
-                    <a href="#" class="card_link">Millennial Testament</a>
-        
-                    <span class="card_data">August 19</span>
-        
-                    <hr class="hr">
-                    
-                    <p  class="card_text">
-                        What and how modern vloggers, opinion leaders and crypto-millionaires will inherit 
-                        A typical legacy of the Ukrainian generation X looks like this: an apartment in…
-                    </p>
-                </div>
-            </article>
+                        <img src="img/Cover-3-1.png" alt="Cover" class="card-img-2">
+            
+                        <a href="#" class="card_link">Millennial Testament</a>
+            
+                        <span class="card_data">August 19</span>
+            
+                        <hr class="hr">
+                        
+                        <p  class="card_text">
+                            What and how modern vloggers, opinion leaders and crypto-millionaires will inherit 
+                            A typical legacy of the Ukrainian generation X looks like this: an apartment in…
+                        </p>
+                    </div>
+                   </div>
+                </article>
+            </div>
         </section>
 
-        <footer>
-            <hr class="footer-hr">
+        <hr class="footer-hr">
 
-            <h3 class="footer-title">Kyiv, Mechnikova str., 14/1</h3>
-
-            <a href="https://goo.gl/maps/BGnjKh23bsjLzmiK6" class="link-map">
-                On map
-            </a>
-
-            <a href="facebook.com" class="link-fb">
-                <img src="img/fb.png" alt="facebook">
-            </a>
-
-            <a href="tel:0800 211 927" class="link-pf">0800 211 927</a>
-
-            <a href="mailto:contact@forstudy.space" class="link-mail">contact@forstudy.space</a>
-
-            <span class="footer-sub">© 2021 HLEGAL Law company, LLC</span>
-        </footer>
+        <div class="inner-container f">
+            <footer class="footer">
+                <div class="footer__wrap">
+                    <div class="footer-head">
+                        <div class="fb-nav">
+                            <ul class="fb-nav__list">
+                                <li class="fb-nav__item">
+                                  <h3 class="fb-nav__text">Kyiv, Mechnikova str., 14/1</h3>
+                               </li>
+             
+                               <li class="fb-nav__item">
+                                   <p class="fb-nav__edd is-hidden-mobile"></p>
+                               </li>
+                                <li class="fb-nav__item">
+                                    <a href="https://goo.gl/maps/BGnjKh23bsjLzmiK6" class="fb-nav__link">
+                                        On map
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-legal">
+                         <div class="copyright">
+                             <span class="copyright_text">© 2021 HLEGAL Law company, LLC</span>
+                         </div>
+                    </div>
+                    <nav class="footer-contact">
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                               <a href="facebook.com" class="link-fb">
+                                  <img src="img/fb.png" alt="facebook" class="link-fb__img">
+                              </a>
+                            </li>
+             
+                             <li class="fb-nav__item">
+                                 <p class="fb-nav__edd is-hidden-mobile"></p>
+                             </li>
+             
+                            <li class="contact__item">
+                                <span class="contact__tel">
+                                    <a href="tel:0800211927" class="contact__link_phone">0800 211 927</a>
+                                </span>
+                            </li>
+             
+                             <li class="fb-nav__item">
+                                 <p class="fb-nav__edd is-hidden-mobile"></p>
+                             </li>
+                            
+                            <li class="contact__item">
+                                <span class="contact__email">
+                                    <a href="mailto:contact@test.com" class="contact__link_mail">contact@test.com</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+             </footer>
+        </div>
     </div>
 </body>
 
