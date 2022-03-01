@@ -1,9 +1,8 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-
 
 li {
   list-style-type: none;
@@ -17,113 +16,112 @@ ul {
   /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
-.footer__wrap{
+.footer__wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
-@media screen and (max-width:767px) {
-  .footer__wrap{
-    flex-direction: column; 
+@media screen and (max-width: 767px) {
+  .footer__wrap {
+    flex-direction: column;
   }
 }
 
-.footer-head{
+.footer-head {
   display: flex;
   width: 50%;
   align-items: center;
   margin-bottom: 21px;
 }
 
-@media screen and (max-width:767px) {
-  .footer-head{
+@media screen and (max-width: 767px) {
+  .footer-head {
     width: 100%;
-    order:1;
+    order: 1;
   }
-  .footer-head .fb-nav__list{
+  .footer-head .fb-nav__list {
     display: flex;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
     /* margin-bottom: 21px;    */
   }
 }
 
-.footer-legal{
-  width:50%;
-  display:flex;
-  align-items:baseline;
-  justify-content: flex-end;  
+.footer-legal {
+  width: 50%;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
 }
 
-@media screen and (max-width:767px) {
-  .footer-legal{
+@media screen and (max-width: 767px) {
+  .footer-legal {
     width: 100%;
-    order:3;
+    order: 3;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
   }
 }
 
-.footer-contact{
+.footer-contact {
   width: 100%;
 }
 
-.footer-contact .contact__list{
+.footer-contact .contact__list {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.footer-contact .contact__link_phone{
+.footer-contact .contact__link_phone {
   font-size: 16px;
   line-height: 20px;
   text-align: right;
-  color: #46466E;
+  color: #46466e;
   text-decoration: none;
 }
 
-.contact__link_phone:hover{
+.contact__link_phone:hover {
   color: var(--hover-color);
 }
 
-.footer-contact .contact__link_mail{
+.footer-contact .contact__link_mail {
   font-size: 16px;
   line-height: 20px;
-  color: #24A3FF;
+  color: #24a3ff;
   text-decoration: none;
 }
 
-.contact__link_mail:hover{
+.contact__link_mail:hover {
   color: var(--hover-color);
 }
 
-
-@media screen and (max-width:767px) {
-  .footer-contact{
+@media screen and (max-width: 767px) {
+  .footer-contact {
     order: 2;
   }
 
-  .footer-contact .contact__list{
+  .footer-contact .contact__list {
     flex-direction: column;
   }
 
-  .contact__item{
+  .contact__item {
     margin-bottom: 10px;
   }
 }
 
-@media screen and (max-width:767px) {
-  .fb-nav{
+@media screen and (max-width: 767px) {
+  .fb-nav {
     width: 100%;
   }
 }
 
-.fb-nav__list{
+.fb-nav__list {
   display: flex;
   align-items: center;
 }
 
-.fb-nav__text{
+.fb-nav__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -131,57 +129,50 @@ ul {
   margin: 0;
 }
 
-@media screen and (max-width:767px) {
-  .fb-nav__text{
+@media screen and (max-width: 767px) {
+  .fb-nav__text {
     margin-bottom: 10px;
   }
 }
 
-.fb-nav__edd{
+.fb-nav__edd {
   width: 6px;
   height: 6px;
-  background: #B3B3BA;
+  background: #b3b3ba;
   border-radius: 50%;
   margin: 0 10px 0 10px;
 }
 
-.fb-nav__link{
+.fb-nav__link {
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #24A3FF;
+  color: #24a3ff;
   text-decoration: none;
 }
 
-.copyright_text{
+.copyright_text {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-align: right;
-  color: #B3B3BA;
+  color: #b3b3ba;
 }
 
 @media screen and (max-width: 767px) {
-  .copyright{
+  .copyright {
     margin-bottom: 30px;
   }
 }
 
-.link-fb__img{
+.link-fb__img {
   width: 38px;
   height: 38px;
 }
 
 @media screen and (max-width: 767px) {
   .is-hidden-mobile {
-    display:none;
+    display: none;
   }
 }
-
-
-
-
-
-
-
