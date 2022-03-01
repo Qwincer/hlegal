@@ -262,17 +262,4 @@
       padding: 15px 15px;
    }
 
-   .footer {
-      display: flex;
-      flex-direction: row;
-   }
-
-   .footer-item_1 {
-      order: 1;
-   }
-
-   .footer-item_2 {
-      order: 2;
-   }
-
 }
