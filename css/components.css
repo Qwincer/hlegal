@@ -1,26 +1,60 @@
 .chek-btn{
    padding-top: 30px;
-   display: flex;
-   justify-content: center;
-   margin-bottom: 30px;
 }
 
-.checkboxContainer{
-   background-color: #E6E6F0;
-   padding:8px 30px 10px 30px;
-   width: fit-content;
+/* Это класс предназначен для того чтоб скрывать элемент на странице, но не прятать его от скрин-ридеров, тем самым позволяя людям с ограниченными возможностями взаимодействовать с интерфейсом.
+ Этот класс можно просто запомнить или сохранить себе где-то. Он работает во всех браузерах. Он так же есть в презентациях к нашми лекциям*/
+ .visually-hidden {
+   position: absolute;
+   clip: rect(0 0 0 0);
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+ }
+ 
+ .buttons {
+   background: #E6E6F0;
    border-radius: 12px;
+   padding: 3px;
+   display: inline-block;
+ /* Нулевой размер шрифта нужен для того чтоб убрать пробел который существует между инлайновыми элеентами стоящими рядом. В нашем случае - это два элемента <label>. Это свойство наследуемое, потому каждому элементу <span> с текстом приходится опять задать нормальный размер переопределив нулевой.*/
+   font-size: 0px;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%, 0);
+   }
+ 
+ .btn {
+   width: 116px;
    height: 42px;
-}
-.checkboxContainer label{
-   padding:10 20px;
-}
-.checkboxContainer input[name="radiobutton"] {
-   display:none;
-}
+   line-height: 42px;
+   display: inline-block;
+   font-size: 16px;
+   letter-spacing: -0.500211px;
+   color: #323264;
+   border: none;
+   text-align: center;
+   cursor: pointer;
+ }
 
-.checkboxContainer input:checked + label{
-   padding:8px 30px 10px 30px;
+ /* Закругление углов у левой "кнопки" */
+ .btn-left {
    border-radius: 10px;
-   background-color:#fff;
-}
+ }
+ 
+ /* Закругление углов у правой "кнопки" */
+ .btn-right {
+   border-radius: 10px;
+ }
+ 
+ /*
+ Самая важная особенность этой верстки - селектор "+".
+ Почитать о нем можно тут https://developer.mozilla.org/ru/docs/Web/CSS/Adjacent_sibling_combinator
+ 
+ О чем тут речь, в этом селекторе. Он говорит браузеру, найди все элементы с классом "btn" сразу перед которыми находится элемент с классом "radio" у которого есть псевдокласс "checked". Из лекции по псевдоклассам вспомминаем что checked может быть у элементов формы которые поддерживают возможность выбора (радиокнопки, чекбоксы, элемент option внутри элемента select).
+ */
+ .radio:checked + .btn {
+   background-color: #fff;
+   color: #323264;
+ }
+
