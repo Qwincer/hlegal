@@ -4,6 +4,7 @@ body {
   font-style: normal;
 }
 
+
 li {
   list-style-type: none;
   /* Убираем маркеры */
@@ -81,12 +82,21 @@ ul {
   text-decoration: none;
 }
 
+.contact__link_phone:hover{
+  color: var(--hover-color);
+}
+
 .footer-contact .contact__link_mail{
   font-size: 16px;
   line-height: 20px;
   color: #24A3FF;
   text-decoration: none;
 }
+
+.contact__link_mail:hover{
+  color: var(--hover-color);
+}
+
 
 @media screen and (max-width:767px) {
   .footer-contact{
