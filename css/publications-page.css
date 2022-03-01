@@ -301,6 +301,12 @@ a:hover{
       text-align: right;
       color: var(--main-link-color);
    }
+
+   .list-link:hover {
+      border-bottom: 2px var(--main-link-color) solid; 
+      line-height: 3px;
+      color: var(--main-link-color);
+   }
    
    .list-link__active{
       border-bottom: 2px #F0145A solid; 
