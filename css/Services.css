@@ -158,6 +158,12 @@ a:hover {
   background: none;
 }
 
+@media screen and (max-width: 768px) {
+  .header-link_fb {
+    display: none;
+  }
+}
+
 .fb-red-hover {
   display: none;
 }

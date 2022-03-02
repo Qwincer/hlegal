@@ -1,64 +1,67 @@
-.chek-btn{
-   padding-top: 30px;
+.chek-btn {
+  padding-top: 30px;
 }
 
 /* Это класс предназначен для того чтоб скрывать элемент на странице, но не прятать его от скрин-ридеров, тем самым позволяя людям с ограниченными возможностями взаимодействовать с интерфейсом.
  Этот класс можно просто запомнить или сохранить себе где-то. Он работает во всех браузерах. Он так же есть в презентациях к нашми лекциям*/
- .visually-hidden {
-   position: absolute;
-   clip: rect(0 0 0 0);
-   width: 1px;
-   height: 1px;
-   margin: -1px;
- }
- 
- .buttons {
-   background: #E6E6F0;
-   border-radius: 12px;
-   padding: 3px;
-   display: inline-block;
- /* Нулевой размер шрифта нужен для того чтоб убрать пробел который существует между инлайновыми элеентами стоящими рядом. В нашем случае - это два элемента <label>. Это свойство наследуемое, потому каждому элементу <span> с текстом приходится опять задать нормальный размер переопределив нулевой.*/
-   font-size: 0px;
-   position: relative;
-   left: 50%;
-   transform: translate(-50%, 0);
-   }
- 
- .btn {
-   width: 116px;
-   height: 42px;
-   line-height: 42px;
-   display: inline-block;
-   font-size: 16px;
-   letter-spacing: -0.500211px;
-   color: #323264;
-   border: none;
-   text-align: center;
-   cursor: pointer;
- }
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 
- /* Закругление углов у левой "кнопки" */
- .btn-left {
-   border-radius: 10px;
- }
- 
- /* Закругление углов у правой "кнопки" */
- .btn-right {
-   border-radius: 10px;
- }
- 
- /*
+.buttons {
+  background: #e6e6f0;
+  border-radius: 12px;
+  padding: 3px;
+  /* Нулевой размер шрифта нужен для того чтоб убрать пробел который существует между инлайновыми элеентами стоящими рядом. В нашем случае - это два элемента <label>. Это свойство наследуемое, потому каждому элементу <span> с текстом приходится опять задать нормальный размер переопределив нулевой.*/
+  font-size: 0px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  width: fit-content;
+  gap: 2px;
+}
+
+.btn {
+  width: fit-content;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: -0.500211px;
+  color: #323264;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 0 2rem;
+}
+
+/* Закругление углов у левой "кнопки" */
+.btn-left {
+  border-radius: 10px;
+}
+
+/* Закругление углов у правой "кнопки" */
+.btn-right {
+  border-radius: 10px;
+}
+
+/*
  Самая важная особенность этой верстки - селектор "+".
  Почитать о нем можно тут https://developer.mozilla.org/ru/docs/Web/CSS/Adjacent_sibling_combinator
  
  О чем тут речь, в этом селекторе. Он говорит браузеру, найди все элементы с классом "btn" сразу перед которыми находится элемент с классом "radio" у которого есть псевдокласс "checked". Из лекции по псевдоклассам вспомминаем что checked может быть у элементов формы которые поддерживают возможность выбора (радиокнопки, чекбоксы, элемент option внутри элемента select).
  */
- .radio:checked + .btn {
-   background-color: #fff;
-   color: #323264;
- }
+.radio:checked + .btn {
+  background-color: #fff;
+  color: #323264;
+}
 
- /* .radio .disabled:hover+ .btn {
+/* .radio .disabled:hover+ .btn {
   background: #F5F5FA;
   color: #323264;
   margin: 2px;
@@ -71,4 +74,6 @@
   margin: 0px 2px;
 } */
 
-
+input[type="radio"]:not(:checked):hover + span {
+  background: #f5f5fa;
+}

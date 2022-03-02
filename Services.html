@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/variebels.css">
    <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="burger/burger.css">
    <link rel="stylesheet" href="css/Services.css">
    <link rel="stylesheet" href="css/footer.css">
    <title>Services page</title>
@@ -77,10 +78,34 @@
                 <div class="slah"><img src="img/publications/slash/Slash.png" alt="slash"></div>
                 <span class="breadcrumb">services</span>
                </div>
-               <!-- mob nav -->
-               <nav class="nav-mobile">
-                  <button class="nav-btn"><img src="img/Hamburger.svg" alt="Hamburger" class="hamburger"></button>
-               </nav>
+
+                   <!-- *!mob nav -->
+                        <nav class="nav-mobile">
+                            <!-- <button class="nav-btn"><img src="img/Hamburger.svg" alt="Hamburger" class="hamburger"></button> -->
+                            <nav class="navbar">
+                                <div class="">
+                                  <div class="navbar__wrap">
+                                    <div class="hamb">
+                                      <div class="hamb__field" id="hamb">
+                                        <span class="bar"></span>
+                                        <span class="bar"></span>
+                                        <span class="bar"></span>
+                                      </div>
+                                    </div>
+                                    <ul class="menu" id="menu">
+                                      <li><a href="#">about us</a></li>
+                                      <li><a href="Services.html">services</a></li>
+                                      <li><a href="#">team</a></li>
+                                      <li><a href="Publications.html">publications</a></li>
+                                      <li><a href="#">contact</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </nav>
+                              <div class="popup" id="popup"></div>
+                        </nav>
+                        <!-- *!mob nav -->
+
                <!-- logo tab -->
                <div class="logo-768">
                   <img src="img/Logo768.png" alt="logo" class="logo-768_img">
@@ -304,6 +329,8 @@
            </footer>
       </div>
   </div>
+
+  <script src="/burger/burger.js"></script>
 </body>
 
 </html>
