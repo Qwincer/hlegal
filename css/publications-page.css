@@ -274,12 +274,6 @@ a:hover {
     display: block;
   }
 
-  @media screen and (max-width: 768px) {
-    .header-link_fb {
-      display: none;
-    }
-  }
-
   .logo {
     margin-left: 60px;
   }
