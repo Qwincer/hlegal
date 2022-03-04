@@ -450,6 +450,7 @@ a:hover {
   height: 300px;
   border-radius: 12px;
   margin-bottom: 15px;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {

@@ -157,8 +157,8 @@
 
             <section class="cards">
                 <div class="inner-container">
-                    <article class="cards-content">
-                        <div class="column is-half">
+                    <article class="cards-content" id="cards">
+                        <div class="column is-half card-container">
                             <div class="card">
                                 <img src="img/publications/cards/Publication-1.jpg" alt="Cover" class="card-img">
 
@@ -175,7 +175,7 @@
                             </div>
                         </div>
 
-                        <div class="column is-half">
+                        <div class="column is-half card-container">
                             <div class="card">
                                 <img src="img/publications/cards/Publication-2.jpg" alt="Cover" class="card-img">
 
@@ -196,7 +196,7 @@
                             </div>
                         </div>
 
-                        <div class="column is-full">
+                        <div class="column is-full card-container">
                             <div class="card card-3">
                                 <img src="img/publications/cards/Publication-3.jpg" alt="Cover" class="card-img">
 
@@ -213,7 +213,7 @@
                             </div>
                         </div>
 
-                        <div class="column is-full">
+                        <div class="column is-full card-container">
                             <div class="card card-3">
                                 <img src="img/publications/cards/Publication-4.jpg" alt="Cover" class="card-img">
 
@@ -233,7 +233,7 @@
                             </div>
                         </div>
 
-                        <div class="column is-full">
+                        <div class="column is-full card-container">
                             <div class="card card-3">
                                 <img src="img/publications/cards/Publication-5.jpg" alt="Cover" class="card-img">
 
@@ -252,7 +252,7 @@
                             </div>
                         </div>
 
-                        <div class="column is-full">
+                        <div class="column is-full card-container">
                             <div class="card card-3">
                                 <a href="#" class="card_link card_link__mt card_link_mr30">Currency control is dead,
                                     long live currency control!</a>
@@ -272,9 +272,12 @@
                 </div>
 
                 <div class="content-btn">
-                    <button class="card-btn">
+                    <a class="card-btn" id="loadMore">
                         More publications
-                    </button>
+                    </a>
+                    <a class="card-btn is-hidden" id="loadLess">
+                        Less publications
+                    </a>
                 </div>
             </section>
         </main>
@@ -341,6 +344,7 @@
     </div>
 
     <script src="./burger/burger.js"></script>
+    <script src="lazy-loading.js"></script>
 </body>
 
 </html>

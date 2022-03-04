@@ -21,7 +21,13 @@ h6 {
   font-style: normal;
 }
 
-a:hover {
+.is-hidden {
+  display: none;
+}
+a {
+  cursor: pointer;
+}
+a[href]:hover {
   color: var(--hover-color);
 }
 
@@ -396,6 +402,21 @@ a:hover {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+#cards {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-this-element {
+}
 
 .hr {
   border: 2px solid #e6e6f0;
@@ -504,12 +525,11 @@ a:hover {
 
 .content-btn {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .card-btn {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 0);
   border: none;
   background: #24a3ff;
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
